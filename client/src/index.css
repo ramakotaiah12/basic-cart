@@ -1,0 +1,69 @@
+main {
+  min-height: 80vh;
+}
+footer {
+  font-size: x-small;
+}
+header {
+  font-size: x-small;
+}
+.avatar {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 1px;
+}
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger:visited {
+  background-color: #e50000 !important;
+  border-color: #e50000 !important;
+  background-image: none !important;
+  border: 0 !important;
+}
+.btn-light:hover,
+.btn-light:active,
+.btn-light:focus,
+.btn-light:visited {
+  background-color: #78c2ad !important;
+  border-color: #78c2ad !important;
+  background-image: none !important;
+  border: 0 !important;
+}
+/* carousel */
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h6 {
+  color: #fff;
+}
+
+.carousel img {
+  width: auto;
+  height: 200px;
+  max-height: 245px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+.carousel a {
+  margin: 0 auto;
+}
+.carousel-div {
+  width: 500px;
+  margin: 0 auto;
+}
+.carousel-control {
+  opacity: 1 !important;
+  color: red;
+}
