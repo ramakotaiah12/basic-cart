@@ -18,7 +18,7 @@ const ProductCarousel = () => {
   ) : error ? (
     <Message variant="danger">{error}</Message>
   ) : (
-    <Carousel pause="hover" className="bg-light"style={{marginTop :"1px"}}>
+    <Carousel pause="hover" className=""style={{backgroundColor : '#777'}}>
       {products.map((product) => (
         <Carousel.Item key={product._id}>
           <Link to={`/product/${product._id}`}>
@@ -27,6 +27,7 @@ const ProductCarousel = () => {
                 product.image.data
               ).toString("base64")}`}
               fluid
+              style={{backgroundColor : "#777"}}
             />
            
           </Link>
